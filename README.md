@@ -1,6 +1,6 @@
 # Project Lab Setup Notes
 
-This repository contains detailed setup guides for lab environments involving ESXi, Cloudflare, Odoo, and Windows. These notes are meant to help you recreate similar environments for testing or learning purposes.
+This repository contains detailed setup guides for lab environments involving ESXi, Cloudflare, Odoo, Windows10 and using domain form z.com. These notes are meant to help you recreate similar environments for testing or learning purposes.
 
 ## 📘 Project Lab Guides
 
