@@ -2,7 +2,7 @@
 # **ESXi Lab Setup with Ubuntu and Cloudflare**
 
 ### **Prerequisites**
-- **Domain**: Purchased from Z.com (e.g., `yourdomain.com`)
+- **Domain**: Purchased from any domain provider (e.g., `yourdomain.com`)
 - **Cloudflare Account** (Free plan)
 - **Small Server (24/7)**:
   - Ubuntu VM, Raspberry Pi, or Linux VM (inside the same NAT network as ESXi)
@@ -30,7 +30,7 @@
    - Log in to **Cloudflare** and add your domain (e.g., `yourdomain.com`).
    
 2. **Change Domain Name Servers to Cloudflare**:
-   - Go to **Z.com (GMO)** or your domain provider dashboard.
+   - Go to your domain provider dashboard.
    - Find **DNS / Nameserver settings**.
    - Replace the current nameservers with Cloudflare's:
      - **ns1**: `mario.ns.cloudflare.com`
@@ -97,8 +97,8 @@
 ---
 
 ### **Where to Control Your Domain**
-- **Domain Management (Z.com)**:  
-  Z.com controls the **registration** and **nameservers** of your domain. If you want to create subdomains or link your domain to external services (like hosting), you manage DNS records in **Cloudflare**.
+- **Domain Management **:  
+  Your domain provider controls the **registration** and **nameservers** of your domain. If you want to create subdomains or link your domain to external services (like hosting), you manage DNS records in **Cloudflare**.
 
 - **Subdomain and Hosting Control (Cloudflare)**:  
   Cloudflare controls the **DNS** records, including subdomains, and also allows you to configure proxy services, SSL, and security settings.
